@@ -8,8 +8,8 @@ body {
     overflow: hidden;
 }
 h2{
-    display: flex;
-    justify-content: center;
+    display:inline-flex;
+    justify-content:left;
     color:rgb(105, 110, 211);
 }
 .popup-content, .popup-content2 {
@@ -29,7 +29,7 @@ h2{
 
 .dot , .dot2 {
     background-color: #7e7e7e;
-    border-radius: 30%;
+    border-radius: 20%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -65,14 +65,14 @@ h2{
 
 button {
     border-radius: 5px;
-    border-color:#292d3464;
+    border:none;
     background-color: #ffffff;
     color: rgb(106, 100, 142);
     margin-left: 9px; /* Space between dot and button */
     flex-shrink: 0; /* Prevent button from shrinking too much */
     position: sticky;
     border-width: 0.5px;
-    top: 105px;
+    top: 120px;
     padding: 10px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -92,10 +92,9 @@ button:active {
     overflow: hidden;
     display: flex;
     background-color: #292d34;
-    position: fixed;
     top: 0;
     width: 100%;
-    position: sticky;
+    position:sticky;
     justify-content: center;
     align-items: center;
   }
@@ -104,23 +103,24 @@ button:active {
     margin: 0; /* Remove default margin */
     font-size: 18px; /* Adjust font size as needed */
     padding-right: 6px;
+    text-align: left;
 }
 
-  .navbar a {
-    float: left;
-    display: block;
-    color: transparent;
-    text-align: center;
-    padding: 0px;
-    text-decoration: none;
-  }
+.navbar a {
+float: left;
+display: block;
+color: transparent;
+text-align: center;
+padding: 0px;
+text-decoration: none;
+}
   
-  /* Change background on mouse-over */
-  .navbar a:hover {
-    background: transparent;
-    color: black;
-  }
+.navbar a:hover {
+background: transparent;
+color: black;
+}
 
-  .logo {
-    scale: 50%;
-  }
+.logo {
+scale: 50%;
+
+}
