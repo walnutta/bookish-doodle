@@ -14,14 +14,15 @@ h2{
 }
 .popup-content, .popup-content2 {
     display: flex;
-    align-items:flex-start;
-    justify-content: center;
+    align-items:center;
     flex-wrap: wrap; /* Allow content to wrap if it exceeds container width */
-    padding: 5px;
+    padding: 2px;
     align-content: center;
 }
 .popup-content {
     flex-direction: row;
+    margin-left: 5%;
+    gap: 5px;
 }
 .popup-content2 {
     flex-direction: column;
@@ -35,7 +36,7 @@ h2{
     justify-content: center;
     transition: 0.3s ease-in-out; 
     font-weight: bold;
-    box-shadow: 0px 3px 3px #3245656d;
+    box-shadow: 0px 3px 3px #9bb8e86d;
 }
 
 .dot {
